@@ -1,0 +1,28 @@
+{
+  "name": "texclean",
+  "version": "0.1.0",
+  "description": "A robust text cleaning library for JS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aditioagungnugroho/texclean.git"
+  },
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "texclean": "./bin/texclean.js"
+  },
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "text",
+    "clean",
+    "normalization"
+  ],
+  "author": "Aditio",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^1.0.0"
+  }
+}
