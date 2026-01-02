@@ -4,12 +4,12 @@
   "description": "A robust text cleaning library for JS",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aditioagungnugroho/texclean.git"
+    "url": "git+https://github.com/aditioagungnugroho/texclean.git"
   },
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "texclean": "./bin/texclean.js"
+    "texclean": "bin/texclean.js"
   },
   "scripts": {
     "test": "vitest",
